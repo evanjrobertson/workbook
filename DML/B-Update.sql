@@ -1,4 +1,5 @@
 -- Update Examples
+--CREATE DATABASE [A01-School]
 USE [A01-School]
 GO -- Execute the code up to this point as a single batch
 

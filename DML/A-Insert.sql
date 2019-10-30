@@ -1,6 +1,5 @@
 -- Insert Examples
-USE [A01-School]
-GO -- Execute the code up to this point as a single batch
+ -- Execute the code up to this point as a single batch
 
 /*  Notes:
     The syntax for the INSERT statement is
@@ -57,6 +56,11 @@ VALUES ('START', 'Small Tech And Research Teams'),
 -- 4. In your web browser, use https://randomuser.me/ to get information on three
 --    people to add as new students. Write separate insert statement for each new student.
 -- TODO: Student Answer Here....
+
+INSERT INTO Student(Gender, LastName, FirstName, Birthdate)
+VALUES	('M', 'Arnold', 'Cecil', 'October 1, 1962'),
+		('M', 'Elliot', 'Maurice', 'December 4, 1945'),
+		('F', 'Bishop', 'Hailey', 'March 5, 1993')
 
 
 -- 5. Enroll each of the students you've added into the DMIT104 course.
